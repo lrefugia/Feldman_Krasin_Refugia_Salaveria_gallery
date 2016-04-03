@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('../fonts/bebasneue_book-webfont.eot');
+    src: url('../fonts/bebasneue_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue_book-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_book-webfont.woff') format('woff'),
+         url('../fonts/bebasneue_book-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue_book-webfont.svg#bebas_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neue_regularregular';
+    src: url('../fonts/bebasneue_regular-webfont.eot');
+    src: url('../fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_regular-webfont.woff') format('woff'),
+         url('../fonts/bebasneue_regular-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('../fonts/montserrat-regular-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+#header{
+	background-color: #5ca1b1;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+#hero{
+	max-width: 40%;
+}
+
+.menu a{
+	font-family: 'bebas_neue_regularregular', sans-serif;
+	font-size: 1.5em;
+  	color: #1e4564;
+}
+
+.menu a:hover{
+	color: #deab74;
+}
+
+input#srch{
+	font-family: 'montserratregular', sans-serif;
+}
+
+body{
+	background-color: #c6d5d8;
+}
+
+.l-searchLive{
+	background-color: #fff;
+	display: block;
+	padding: 10px 0px 10px 20px;
+	margin-bottom: -24px;
+}
+
+.l-searchLive:hover{
+	background-color: #ebdfcf;
+}
+
+.thumb{
+	max-width: 45px;
+	margin-right: 30px;
+}
+
+.search-title{
+	font-family: 'bebas_neue_regularregular', sans-serif;
+	font-size: 1.25em;
+	color: #5ca1b1;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.search-year{
+	font-family: 'montserratregular', sans-serif;
+	font-size: 1.25em;
+	color: #5ca1b1;
+	display: inline-block;		
+}
+
+/*.movie{
+	display: flex;
+	flex-flow: row wrap;
+	/*flex-direction:row;
+	flex-wrap: wrap;*/
+	justify-content: flex-start;
+	align-content:space-between;
+}
+
+/*.movie-item{
+	width: 33%;
+	align-self:flex-start;
+	display: inline-block;
+}*/
+
+.movie-img{
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.movie-title{
+	font-family: 'bebas_neue_regularregular', sans-serif;
+	font-size: 1.5em;
+}
+
+.movie-year, .details-link, #nores{
+	font-family: 'montserratregular', sans-serif;
+	font-size: 1.125em;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.details-link{
+	color: #5ca1b1;
+}
+
+#footer{
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #d54d1d;
+}
+
+#footer-text, #copy{
+	font-family: 'montserratregular', sans-serif;
+	color: #1e4564;
+}
+
+#footer-text:hover{
+	color: #ebdfcf;
+}
+
+#copy{
+	font-size: .75em;
+}
+
+#details-img{
+	margin-top: 20px;
+}
+
+#details-content{
+	margin-top:20px;
+}
+
+#details-title{
+	font-family: 'bebas_neue_regularregular', sans-serif;
+	font-size: 3em;
+	display: inline-block;
+	float: left;
+}
+
+#details-yr{
+	font-family: 'bebas_neue_regularregular', sans-serif;
+	font-size: 1.6em;
+}
+
+#details-synps, .php-link{
+	font-family: 'montserratregular', sans-serif;
+}
+
+#details-synps{
+	display: block;
+	margin-top: 80px;
+}
+
+.php-link{
+	color: #5ca1b1;
+	font-size: 1.6em;
+}
+
+#nores{
+	padding-left: 20px;
+}
+
+
+/*  d e t a i l s  */
+.details{
+	margin-bottom: 20px;
+	padding: 30px;
+}
+
+.close{
+	display: inline-block;
+	float: right;
+	font-size: 2.5em;
+}
+
+
+
+/*  m u l t i   a d d i t i o n  */
+.lightbox{
+	display: none;
+	width: 50%;
+	position: fixed;
+	z-index: 999;
+	padding: 25px;
+	margin: 1% 25%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: #fff;
+}
+
+.lightbox:target {
+	outline: none;
+	display: block;
+}

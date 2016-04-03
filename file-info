@@ -1,0 +1,13 @@
+This file include:
+-	livesearch
+-	built-in updating details
+
+Uses:
+-	PHP
+-	JS
+
+What could be done to improve this file: 
+-	Disappearing livesearch when not being used
+-	Restyling
+	-	Flex box: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+	-	Insert "Details" in "Reveal": http://foundation.zurb.com/sites/docs/reveal.html
