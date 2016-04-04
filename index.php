@@ -11,27 +11,26 @@
 </head>
 <body>
 	
-	<!--header-->
-	<div class="column text-center" id="header">
-		<h2 class="hide">Movie Database</h2>
-		<?php include('includes/nav.html'); ?>
-	</div>
+    <div class="row">
+      <div class="large-12 columns" id="header">
+        <h1>Welcome to the Blu-Ray Database!</h1>
+        <h2>Come explore our new releases</h2>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="large-10 large-offset-1 columns" id="gallerycontainer">
+      
+      
+      </div>
+    </div>
 
-	<form>
-	    <input id="srch" type="text" size="30" placeholder="SEARCH...">
-	    <div id="livesrch"></div>
-	</form>
+    <div class="row">
+      <div class="large-12 columns" id="footer">
+        <h1>&copy; The Blu-Ray Database 2016 • Jennifer Feldman / Leona Refugia / Mia Salaveria / Amy Krasin</h1>
+      </div>
+    </div>
 
-	<br>
-	
-	<div class="row">
-		<div class="details"></div>
-	</div>	
-	<!--<div class="row">-->
-		<div class="movies row"></div>
-	<!--</div>-->
-
-	<?php include('includes/footer.html'); ?>
 
 	<script src="js/utility.js"></script>
     <script src="js/vendor/jquery.min.js"></script>
